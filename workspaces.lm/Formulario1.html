@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title></title>
+			<link rel="stylesheet" href="">
+	</head>
+	<script type="text/javascript">
+	function myfunction(){
+
+	alert("hola");	
+	}
+	
+
+	</script>
+	<body>
+		<h1>Formulario 1</h1>
+		<form action="tratardatos.html" method="get">
+			<input type="text" name="usuario" value="" placeholder="nombre usuario">
+			<input type="submit" name="" value="Enviar">
+			<input type="reset" name="" value="Reset">
+			<input type="button" name="" value="Enviar" onclick="myfunction()">
+		</form>
+
+
+
+		<h1>Formulario 2</h1>
+		<form action="#" method="get">
+			<input type="image" name="" value="" placeholder="">
+			<input type="button" name="" value="">
+		</form>
+
+
+		<h1>Formulario 1</h1>
+		<form action="#" method="get">
+			Usuario:
+			<input type="text" name="usuario" value="nombre"> <br>
+			Password:
+			<input type="password" name="" value="password"> <br>
+			Socio:
+			<input type="checkbox" name="socio" checked>
+			<br>
+			Sexo:
+			<input type="radio" name="genero" value="m">Masculino
+			<input type="radio" name="genero" value="f">Femenino
+			<br>
+			Temas Preferidos:
+			<input type="checkbox" name="aventura" value="a">Aventura
+			<input type="checkbox" name="comedia" value="c">Comedia
+			<input type="checkbox" name="cficcion" value="f">C.ficcion
+			<br>
+			Descuentos:
+			<input type="text" name="" value="15%" size="4" readonly> <!-- Size: 4 CARACTERES-->
+			<input type="hidden" name="fecha" value="">
+			<br>
+			<input type="file" name="adjunto" value="">
+			<br>Numero0: 
+			<input type="range" name="numero" value="2" min="0" max="20">
+			<br>Numero1: 
+			<input type="number" name="numero" value="2" min="0" max="20">
+			<br>
+			Comentarios:<br>
+			<textarea name="comentarios" rows="8" cols="40"></textarea>
+			<br>	
+			<select name="aficiones" > <!--podriamos poner la opcion multiple -->
+				<option value="deporte">Deporte</option>
+				<option value="ajedrez" selected>Ajedrez</option>
+				<option value="Viajes">Viajes</option>
+				<optgroup label="Otras">
+					<option value="001">otro1</option>
+					<option value="002">otro2</option>
+				</optgroup>
+			</select>
+
+
+			<br><br>
+			<input type="submit" name="" value="Enviar">
+		</form>
+
+
+
+
+
